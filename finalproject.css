@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 20px;
+    background-color: #Bf84b7
+}
+
+#myname{
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    background-color:  #Bf84b7;
+}
+
+.info.legend{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#mp1{text-align: left;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#mp2{text-align: left;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+#description {text-align: left;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#map1, #map2 {
+    height: 1200px;
+    width: 100%;
+}

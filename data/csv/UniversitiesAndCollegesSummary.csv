@@ -1,0 +1,547 @@
+,RECIPIENT.NAME,award_count,total_funding_awarded,Recipient.Type
+1,ADAMS STATE UNIVERSITY,1,587295,Public Institution of Higher Education
+2,ALABAMA A & M UNIVERSITY,3,1763785,Public Institution of Higher Education
+3,ALASKA PACIFIC UNIVERSITY,1,99999,Private Institution of Higher Education
+4,ALBANY STATE UNIVERSITY,2,1799991,Public Institution of Higher Education
+5,AMERICAN INDIAN OIC INC,1,41145,Public Institution of Higher Education
+6,"AMERICAN SOCIETY FOR BIOCHEMISTRY AND MOLECULAR BIOLOGY, INC.",2,629626,Private Institution of Higher Education
+7,AMERICAN UNIVERSITY,3,6599983,Private Institution of Higher Education
+8,ANGELO STATE UNIVERSITY,1,1499710,Public Institution of Higher Education
+9,APPALACHIAN STATE UNIVERSITY,2,1134857,Public Institution of Higher Education
+10,ARIZONA STATE UNIVERSITY,43,48807561,Public Institution of Higher Education
+11,ARKANSAS STATE UNIVERSITY,1,1999484,Public Institution of Higher Education
+12,AUBURN UNIVERSITY,10,6692483,Public Institution of Higher Education
+13,AUBURN UNIVERSITY AT MONTGOMERY,1,299393,Public Institution of Higher Education
+14,AUGSBURG UNIVERSITY,1,49965,Private Institution of Higher Education
+15,AVILA UNIVERSITY,1,49891,Private Institution of Higher Education
+16,AZUSA PACIFIC UNIVERSITY,1,199991,Private Institution of Higher Education
+17,BALDWIN WALLACE UNIVERSITY,1,1989847,Private Institution of Higher Education
+18,BARNARD COLLEGE,1,299953,Private Institution of Higher Education
+19,BARRY UNIVERSITY,1,173064,Private Institution of Higher Education
+20,BATES COLLEGE,1,224878,Private Institution of Higher Education
+21,BAYLOR COLLEGE OF MEDICINE,1,1159314,Private Institution of Higher Education
+22,BAYLOR UNIVERSITY,4,2361864,Private Institution of Higher Education
+23,BENEDICTINE UNIVERSITY,1,300000,Private Institution of Higher Education
+24,BEREA COLLEGE,1,255997,Private Institution of Higher Education
+25,BERRY COLLEGE,1,405632,Private Institution of Higher Education
+26,BIOMEDICAL ENGINEERING SOCIETY,2,52725,Private Institution of Higher Education
+27,BLACKFEET COMMUNITY COLLEGE,1,586570,Public Institution of Higher Education
+28,BOISE STATE UNIVERSITY,6,2204632,Public Institution of Higher Education
+29,BOSTON COLLEGE,4,670642,Private Institution of Higher Education
+30,BOSTON UNIVERSITY,7,5746025,Private Institution of Higher Education
+31,BOWDOIN COLLEGE,1,402000,Private Institution of Higher Education
+32,BOWIE STATE UNIVERSITY,2,3513234,Public Institution of Higher Education
+33,BOWLING GREEN STATE UNIVERSITY-MAIN CAMPUS,2,1012993,Public Institution of Higher Education
+34,BRADLEY UNIVERSITY,1,993878,Private Institution of Higher Education
+35,BRANDEIS UNIVERSITY,3,914882,Private Institution of Higher Education
+36,BRIDGEWATER STATE UNIVERSITY,1,366925,Public Institution of Higher Education
+37,BRIGHAM YOUNG UNIVERSITY,3,1618278,Private Institution of Higher Education
+38,BROWARD COLLEGE,1,782729,Public Institution of Higher Education
+39,BROWN UNIVERSITY,15,7049628,Private Institution of Higher Education
+40,BRYN MAWR COLLEGE,1,100000,Private Institution of Higher Education
+41,BUCKNELL UNIVERSITY,2,446201,Private Institution of Higher Education
+42,CABRERA RESEARCH LAB LLC,1,275000,Private Institution of Higher Education
+43,CALIFORNIA INSTITUTE OF TECHNOLOGY,3,1156522,Private Institution of Higher Education
+44,CALIFORNIA LUTHERAN UNIVERSITY,2,1124451,Private Institution of Higher Education
+45,CALIFORNIA POLYTECHNIC STATE UNIVERSITY-SAN LUIS OBISPO,13,5675081,Public Institution of Higher Education
+,CALIFORNIA STATE UNIVERSITY-SAN MARCOS,2,988954,Public Institution of Higher Education
+,CALIFORNIA STATE UNIVERSITY-BAKERSFIELD,3,534937,Public Institution of Higher Education
+,CALIFORNIA STATE UNIVERSITY SYSTEM,1,96812,Public Institution of Higher Education
+46,CALIFORNIA STATE POLYTECHNIC UNIVERSITY-POMONA,6,4070063,Public Institution of Higher Education
+47,CALIFORNIA STATE UNIVERSITY-CHICO,3,582914,Public Institution of Higher Education
+48,CALIFORNIA STATE UNIVERSITY-DOMINGUEZ HILLS,4,1480866,Public Institution of Higher Education
+49,CALIFORNIA STATE UNIVERSITY-EAST BAY,3,1107460,Public Institution of Higher Education
+50,CALIFORNIA STATE UNIVERSITY-FRESNO,6,4414625,Public Institution of Higher Education
+51,CALIFORNIA STATE UNIVERSITY-FULLERTON,3,821907,Public Institution of Higher Education
+52,CALIFORNIA STATE UNIVERSITY-LONG BEACH,10,5064357,Public Institution of Higher Education
+53,CALIFORNIA STATE UNIVERSITY-LOS ANGELES,6,1435891,Public Institution of Higher Education
+54,CALIFORNIA STATE UNIVERSITY-SAN BERNARDINO,4,464048,Public Institution of Higher Education
+,CITY COLLEGES OF CHICAGO-MALCOLM X COLLEGE,3,1474649,Public Institution of Higher Education
+55,CALIFORNIA STATE UNIVERSITY-STANISLAUS,1,746993,Public Institution of Higher Education
+56,CARLETON COLLEGE,2,262975,Private Institution of Higher Education
+57,CARNEGIE MELLON UNIVERSITY,22,7428734,Private Institution of Higher Education
+58,CASE WESTERN RESERVE UNIVERSITY,6,3899128,Private Institution of Higher Education
+59,CENTRAL CAROLINA COMMUNITY COLLEGE,1,6386914,Public Institution of Higher Education
+60,CENTRAL CAROLINA TECHNICAL COLLEGE,1,349431,Public Institution of Higher Education
+61,CENTRAL MICHIGAN UNIVERSITY,1,137887,Public Institution of Higher Education
+62,CENTRAL NEW MEXICO COMMUNITY COLLEGE,1,1039185,Public Institution of Higher Education
+63,CENTRAL OREGON COMMUNITY COLLEGE,1,2999990,Public Institution of Higher Education
+64,CENTRAL STATE UNIVERSITY,1,184016,Public Institution of Higher Education
+,COPPIN STATE UNIVERSITY,2,499725,Public Institution of Higher Education
+65,CENTRAL WASHINGTON UNIVERSITY,2,1343578,Public Institution of Higher Education
+66,CHAMINADE UNIVERSITY OF HONOLULU,1,5085148,Private Institution of Higher Education
+67,CHAMPLAIN COLLEGE,1,399995,Private Institution of Higher Education
+68,CHAPMAN UNIVERSITY,3,1158693,Private Institution of Higher Education
+69,CHICAGO STATE UNIVERSITY,4,1889926,Public Institution of Higher Education
+70,CHRISTOPHER NEWPORT UNIVERSITY,3,1187839,Public Institution of Higher Education
+71,CLAREMONT GRADUATE UNIVERSITY,2,690957,Private Institution of Higher Education
+72,CLARK ATLANTA UNIVERSITY,2,4125769,Private Institution of Higher Education
+73,CLARK UNIVERSITY,1,1499365,Private Institution of Higher Education
+74,CLARKSON UNIVERSITY,2,1174210,Private Institution of Higher Education
+75,CLEMSON UNIVERSITY,18,14628487,Public Institution of Higher Education
+76,CLEVELAND STATE UNIVERSITY,2,417099,Public Institution of Higher Education
+77,CODE FOR SCIENCE AND SOCIETY,1,344941,Private Institution of Higher Education
+78,COLBY COLLEGE,1,123413,Private Institution of Higher Education
+79,COLLEGE OF SAINT BENEDICT,1,89562,Private Institution of Higher Education
+80,COLLEGE OF THE HOLY CROSS,1,445419,Private Institution of Higher Education
+81,COLLEGE OF WILLIAM AND MARY,1,175000,Public Institution of Higher Education
+82,COLORADO SCHOOL OF MINES,6,3036489,Public Institution of Higher Education
+83,COLORADO SEMINARY,5,3052085,Private Institution of Higher Education
+84,COLORADO STATE UNIVERSITY,13,4114854,Public Institution of Higher Education
+85,COLORADO STATE UNIVERSITY-PUEBLO,1,33152,Public Institution of Higher Education
+86,COLUMBIA UNIVERSITY,22,13903033,Private Institution of Higher Education
+87,COLUMBUS STATE COMMUNITY COLLEGE,1,7475000,Public Institution of Higher Education
+88,COMMONWEALTH UNIVERSITY OF PENNSYLVANIA,1,400000,Public Institution of Higher Education
+89,COMMUNITY & TECHNICAL COLLEGES WASHINGTON STATE BOARD FOR,1,683346,Public Institution of Higher Education
+90,CORNELL UNIVERSITY,22,18685897,Private Institution of Higher Education
+91,CSU FULLERTON AUXILIARY SERVICES CORPORATION,1,247680,Public Institution of Higher Education
+92,DARTMOUTH COLLEGE,8,3429120,Private Institution of Higher Education
+93,DAVIDSON COLLEGE,1,49576,Private Institution of Higher Education
+94,DELAWARE STATE UNIVERSITY,4,1713038,Public Institution of Higher Education
+95,DENISON UNIVERSITY,1,154759,Private Institution of Higher Education
+96,DEPAUL UNIVERSITY,3,1698054,Private Institution of Higher Education
+97,DILLARD UNIVERSITY,1,792398,Private Institution of Higher Education
+98,DOMINICAN UNIVERSITY,1,746469,Private Institution of Higher Education
+99,DREXEL UNIVERSITY,12,4439346,Private Institution of Higher Education
+100,DUKE UNIVERSITY,14,16008166,Private Institution of Higher Education
+101,DUQUESNE UNIVERSITY,1,611658,Private Institution of Higher Education
+102,EAST CAROLINA UNIVERSITY,2,987188,Public Institution of Higher Education
+103,EASTERN FLORIDA STATE COLLEGE,1,54994,Public Institution of Higher Education
+104,EASTERN MICHIGAN UNIVERSITY,2,578811,Public Institution of Higher Education
+105,ELIZABETHTOWN COLLEGE,1,1196180,Private Institution of Higher Education
+106,EMBRY-RIDDLE AERONAUTICAL UNIVERSITY-PRESCOTT,1,23283,Private Institution of Higher Education
+107,EMMANUEL COLLEGE,1,447650,Private Institution of Higher Education
+108,EMORY UNIVERSITY,10,11007584,Private Institution of Higher Education
+109,EVERETT COMMUNITY COLLEGE,1,389428,Public Institution of Higher Education
+110,FAIRFIELD UNIVERSITY,1,469995,Private Institution of Higher Education
+111,FAIRLEIGH DICKINSON UNIVERSITY,1,199834,Private Institution of Higher Education
+112,FAYETTEVILLE STATE UNIVERSITY,2,1172371,Public Institution of Higher Education
+113,FISK UNIVERSITY,3,990028,Private Institution of Higher Education
+114,FITCHBURG STATE UNIVERSITY,1,363058,Public Institution of Higher Education
+115,FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY,13,5061093,Public Institution of Higher Education
+116,FLORIDA ATLANTIC UNIVERSITY,2,905674,Public Institution of Higher Education
+117,FLORIDA GULF COAST UNIVERSITY,1,297013,Public Institution of Higher Education
+,FEATHER RIVER COMMUNITY COLLEGE DISTRICT,1,750000,Public Institution of Higher Education
+118,FLORIDA INSTITUTE OF TECHNOLOGY,1,205280,Private Institution of Higher Education
+119,FLORIDA INTERNATIONAL UNIVERSITY,27,12501551,Public Institution of Higher Education
+120,FLORIDA MEMORIAL UNIVERSITY,1,400000,Private Institution of Higher Education
+121,FLORIDA STATE UNIVERSITY,7,5126354,Public Institution of Higher Education
+122,FORDHAM UNIVERSITY,1,367230,Private Institution of Higher Education
+123,FORT HAYS STATE UNIVERSITY,1,713832,Public Institution of Higher Education
+124,FORT LEWIS COLLEGE,2,445799,Public Institution of Higher Education
+125,FORT VALLEY STATE UNIVERSITY,1,398058,Public Institution of Higher Education
+126,FOUNDATION FOR PUERTO RICO,1,50000,Private Institution of Higher Education
+127,FRAMINGHAM STATE UNIVERSITY,1,1122960,Public Institution of Higher Education
+128,FRANKLIN AND MARSHALL COLLEGE,1,318711,Private Institution of Higher Education
+129,GALLAUDET UNIVERSITY,2,206095,Private Institution of Higher Education
+130,GANNON UNIVERSITY,1,1499998,Private Institution of Higher Education
+131,GEORGE MASON UNIVERSITY,16,7311863,Public Institution of Higher Education
+132,GEORGE WASHINGTON UNIVERSITY,7,2695371,Private Institution of Higher Education
+133,GEORGETOWN UNIVERSITY,2,1179760,Private Institution of Higher Education
+134,GEORGIA INSTITUTE OF TECHNOLOGY-MAIN CAMPUS,29,14978780,Public Institution of Higher Education
+135,GEORGIA SOUTHERN UNIVERSITY,2,3194798,Public Institution of Higher Education
+136,GEORGIA STATE UNIVERSITY ,9,7245309,Public Institution of Higher Education
+137,GREEN RIVER COLLEGE,1,99902,Public Institution of Higher Education
+138,GRINNELL COLLEGE,1,499553,Private Institution of Higher Education
+139,GUSTAVUS ADOLPHUS COLLEGE,1,184999,Private Institution of Higher Education
+,HINDS COMMUNITY COLLEGE,1,901102,
+140,HAMPTON UNIVERSITY,2,170540,Private Institution of Higher Education
+141,HARRIS-STOWE STATE UNIVERSITY,1,1385162,Public Institution of Higher Education
+142,HARVARD UNIVERSITY,14,3006534,Private Institution of Higher Education
+143,HAVERFORD COLLEGE,1,296325,Private Institution of Higher Education
+144,HIGHER EDUCATION CONNECTICUT BOARD OF REGENTS FOR,1,678039,Public Institution of Higher Education
+145,HIGHLINE COLLEGE,1,585861,Public Institution of Higher Education
+146,HOBART WILLIAM SMITH COLLEGES,1,108714,Private Institution of Higher Education
+147,HOFSTRA UNIVERSITY,2,2399992,Private Institution of Higher Education
+148,HOLLINS UNIVERSITY,1,74914,Private Institution of Higher Education
+149,HOPE COLLEGE,1,501356,Private Institution of Higher Education
+150,HOWARD UNIVERSITY,10,4174554,Private Institution of Higher Education
+151,HUDSONALPHA INSTITUTE FOR BIOTECHNOLOGY,2,1951661,Private Institution of Higher Education
+152,IDAHO STATE UNIVERSITY,1,465008,Public Institution of Higher Education
+153,ILLINOIS COLLEGE,1,30218,Private Institution of Higher Education
+154,ILLINOIS INSTITUTE OF TECHNOLOGY,5,3025225,Private Institution of Higher Education
+155,ILLINOIS STATE UNIVERSITY,2,71189,Public Institution of Higher Education
+156,INDIANA UNIVERSITY OF PENNSYLVANIA-MAIN CAMPUS,1,35493,Public Institution of Higher Education
+157,INDIANA UNIVERSITY-BLOOMINGTON,29,15425043,Public Institution of Higher Education
+158,INDIGENOUS EDUCATION INSTITUTE,1,419774,Private Institution of Higher Education
+159,INTER AMERICAN UNIVERSITY OF PUERTO RICO-AGUADILLA,1,298992,Private Institution of Higher Education
+160,IONA UNIVERSITY,1,1499978,Private Institution of Higher Education
+161,IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY,20,17349970,Public Institution of Higher Education
+162,JACKSON STATE UNIVERSITY,4,3831748,Public Institution of Higher Education
+163,JAMES MADISON UNIVERSITY,3,639167,Public Institution of Higher Education
+164,JARVIS CHRISTIAN UNIVERSITY,1,1065163,Private Institution of Higher Education
+165,JOHN CARROLL UNIVERSITY,2,2599969,Private Institution of Higher Education
+166,JOHNS HOPKINS UNIVERSITY,17,12664687,Private Institution of Higher Education
+167,JOHNSON COUNTY COMMUNITY COLLEGE,1,1487766,Public Institution of Higher Education
+168,JOHNSTON COMMUNITY COLLEGE,1,635012,Public Institution of Higher Education
+169,KANSAS CITY KANSAS COMMUNITY COLLEGE,1,745635,Public Institution of Higher Education
+170,KANSAS STATE UNIVERSITY,1,700529,Public Institution of Higher Education
+171,KEAN UNIVERSITY,4,3515166,Public Institution of Higher Education
+172,KENT STATE UNIVERSITY,3,428733,Public Institution of Higher Education
+173,KENTUCKY COMMUNITY AND TECHNICAL COLLEGE SYSTEM,1,1649295,Public Institution of Higher Education
+174,KENTUCKY STATE UNIVERSITY,1,400000,Public Institution of Higher Education
+,KEENSAW STATE UNIVERSITY,7,1638449,
+175,KENYON COLLEGE,1,700052,Private Institution of Higher Education
+176,KERN COMMUNITY COLLEGE DISTRICT,2,599704,Public Institution of Higher Education
+177,KETTERING UNIVERSITY,2,648945,Private Institution of Higher Education
+178,KUTZTOWN UNIVERSITY OF PENNSYLVANIA,1,299875,Public Institution of Higher Education
+179,LAFAYETTE COLLEGE,3,212541,Private Institution of Higher Education
+180,LAS CUMBRES OBSERVATORY GLOBAL TELESCOPE NETWORK,1,234639,Private Institution of Higher Education
+181,LAWRENCE TECHNOLOGICAL UNIVERSITY,1,249313,Private Institution of Higher Education
+182,LEHIGH CARBON COMMUNITY COLLEGE,1,200000,Public Institution of Higher Education
+183,LEHIGH UNIVERSITY,11,12776092,Private Institution of Higher Education
+184,LEWIS UNIVERSITY,1,410138,Private Institution of Higher Education
+185,LIMESTONE UNIVERSITY,1,774472,Private Institution of Higher Education
+186,LINCOLN UNIVERSITY,1,400000,Public Institution of Higher Education
+187,LINN-BENTON COMMUNITY COLLEGE,1,347934,Public Institution of Higher Education
+188,LONG ISLAND UNIVERSITY,1,316588,Private Institution of Higher Education
+189,LOS ANGELES PIERCE COLLEGE,1,400000,Public Institution of Higher Education
+190,LOUISIANA STATE UNIVERSITY,12,19852233,Public Institution of Higher Education
+191,LOUISIANA UNIV LAFAYETTE,1,74991,Public Institution of Higher Education
+192,LOYOLA MARYMOUNT UNIVERSITY,1,74818,Private Institution of Higher Education
+193,LOYOLA UNIVERSITY MARYLAND,2,866919,Private Institution of Higher Education
+194,LOYOLA UNIVERSITY OF CHICAGO,3,1083719,Private Institution of Higher Education
+195,MACALESTER COLLEGE,1,125982,Private Institution of Higher Education
+196,MACOMB COMMUNITY COLLEGE,1,649999,Public Institution of Higher Education
+197,MANHATTAN COLLEGE,1,39939,Private Institution of Higher Education
+198,MARICOPA COUNTY COMMUNITY COLLEGE DISTRICT,3,209945,Public Institution of Higher Education
+199,MARQUETTE UNIVERSITY,2,1127477,Private Institution of Higher Education
+,MIRACOSTA COMMUNITY COLLEGE DISTRICT,1,649986,Public Institution of Higher Education
+,MONTGOMERY COLLEGE,2,2846686,Public Institution of Higher Education
+200,MARYMOUNT UNIVERSITY,1,1972146,Private Institution of Higher Education
+201,MASSACHUSETTS INSTITUTE OF TECHNOLOGY,23,12178380,Private Institution of Higher Education
+202,MCMURRY UNIVERSITY,1,735023,Private Institution of Higher Education
+203,MEHARRY MEDICAL COLLEGE,3,1932071,Private Institution of Higher Education
+204,MERCER COUNTY COMMUNITY COLLEGE,1,87479,Public Institution of Higher Education
+205,MERRIMACK COLLEGE,1,286418,Private Institution of Higher Education
+206,METROPOLITAN STATE UNIVERSITY OF DENVER,3,2242429,Public Institution of Higher Education
+207,MIAMI UNIVERSITY,4,1217492,Public Institution of Higher Education
+208,MICHIGAN STATE UNIVERSITY,38,29768097,Public Institution of Higher Education
+209,MICHIGAN TECHNOLOGICAL UNIVERSITY,4,2460054,Public Institution of Higher Education
+210,MIDDLE TENNESSEE STATE UNIVERSITY,3,1555388,Public Institution of Higher Education
+211,MILLERSVILLE UNIVERSITY OF PENNSYLVANIA,1,1215079,Public Institution of Higher Education
+212,MINNESOTA STATE COLLEGES & UNIVERSITIES,1,2499950,Public Institution of Higher Education
+213,MISSISSIPPI GULF COAST COMMUNITY COLLEGE,1,399688,Public Institution of Higher Education
+214,MISSISSIPPI STATE UNIVERSITY,7,5625044,Public Institution of Higher Education
+215,MISSISSIPPI VALLEY STATE UNIVERSITY,1,244232,Public Institution of Higher Education
+216,MISSOURI STATE UNIVERSITY,1,1499928,Public Institution of Higher Education
+217,MISSOURI WESTERN STATE UNIVERSITY,1,393461,Public Institution of Higher Education
+218,MOLLOY UNIVERSITY,1,407527,Private Institution of Higher Education
+219,MONTANA STATE UNIVERSITY,9,10224484,Public Institution of Higher Education
+220,MONTANA TECHNOLOGICAL UNIVERSITY,2,1304199,Public Institution of Higher Education
+221,MONTCLAIR STATE UNIVERSITY,5,1198227,Public Institution of Higher Education
+222,MORAVIAN UNIVERSITY,1,364440,Private Institution of Higher Education
+223,MOREHOUSE COLLEGE,1,365861,Private Institution of Higher Education
+224,MORGAN STATE UNIVERSITY,9,4941355,Public Institution of Higher Education
+225,MOUNT HOLYOKE COLLEGE,1,499437,Private Institution of Higher Education
+226,MOUNTWEST COMMUNITY AND TECHNICAL COLLEGE,1,552031,Public Institution of Higher Education
+227,MT SAN ANTONIO COMMUNITY COLLEGE DISTRICT,1,69430,Public Institution of Higher Education
+228,NASSAU COMMUNITY COLLEGE,1,1980847,Public Institution of Higher Education
+229,NATIONAL CENTER FOR HIGHER EDUCATION MANAGEMENT SYSTEMS,1,94658,Private Institution of Higher Education
+230,NATIONAL LOUIS UNIVERSITY,1,645744,Private Institution of Higher Education
+231,NATIONAL POSTDOCTORAL ASSOCIATION COMPANY,1,49590,Private Institution of Higher Education
+232,NEBRASKA INDIAN COMMUNITY COLLEGE,1,1841829,Public Institution of Higher Education
+233,NEVADA SYSTEM OF HIGHER EDUCATION,19,14449625,Public Institution of Higher Education
+234,NEW JERSEY CITY UNIVERSITY,1,150000,Public Institution of Higher Education
+235,NEW JERSEY INSTITUTE OF TECHNOLOGY,11,5330811,Public Institution of Higher Education
+236,NEW MEXICO HIGHLANDS UNIVERSITY,1,277389,Public Institution of Higher Education
+237,NEW MEXICO INSTITUTE OF MINING AND TECHNOLOGY,2,850577,Public Institution of Higher Education
+238,NEW MEXICO STATE UNIVERSITY,7,3193146,Public Institution of Higher Education
+239,NEW YORK INSTITUTE OF TECHNOLOGY,1,135000,Private Institution of Higher Education
+,NEVADA STATE UNIVERSITY,1,1000000,Public Institution of Higher Education
+,NORTHCENTRAL TECHINCAL COLLEGE,1,342519,Public Institution of Higher Education
+240,NEW YORK UNIVERSITY,22,15354675,Private Institution of Higher Education
+241,NEXTCORPS INC,1,4558836,Private Institution of Higher Education
+242,NORFOLK STATE UNIVERSITY,3,1816035,Public Institution of Higher Education
+243,NORTH CAROLINA AGRICULTURAL AND TECHNICAL STATE UNIVERSITY,8,5489284,Public Institution of Higher Education
+244,NORTH CAROLINA CENTRAL UNIVERSITY,3,1883699,Public Institution of Higher Education
+245,NORTH CAROLINA STATE UNIVERSITY,28,12649552,Public Institution of Higher Education
+246,NORTH DAKOTA STATE UNIVERSITY,6,18816128,Public Institution of Higher Education
+247,NORTHEASTERN ILLINOIS UNIVERSITY,3,936557,Public Institution of Higher Education
+248,NORTHEASTERN STATE UNIVERSITY,1,287614,Public Institution of Higher Education
+249,NORTHEASTERN UNIVERSITY,19,13989966,Private Institution of Higher Education
+250,NORTHERN ARIZONA UNIVERSITY,8,5341031,Public Institution of Higher Education
+251,NORTHERN ILLINOIS UNIVERSITY,3,731804,Public Institution of Higher Education
+252,NORTHERN KENTUCKY UNIVERSITY,1,50000,Public Institution of Higher Education
+253,NORTHWESTERN UNIVERSITY,23,15321038,Private Institution of Higher Education
+254,NOVA SOUTHEASTERN UNIVERSITY,2,982587,Public Institution of Higher Education
+255,OAKWOOD UNIVERSITY,1,385588,Private Institution of Higher Education
+256,OBERLIN COLLEGE,2,715453,Private Institution of Higher Education
+257,OCCIDENTAL COLLEGE,3,722707,Private Institution of Higher Education
+258,OHIO STATE UNIVERSITY-MAIN CAMPUS,21,6241068,Public Institution of Higher Education
+259,OHIO WESLEYAN UNIVERSITY,1,499750,Private Institution of Higher Education
+260,OKLAHOMA STATE UNIVERSITY,5,5327298,Public Institution of Higher Education
+261,OLD DOMINION UNIVERSITY,6,2723663,Public Institution of Higher Education
+262,OREGON HEALTH & SCIENCE UNIVERSITY,2,1218173,Public Institution of Higher Education
+263,OREGON STATE UNIVERSITY,12,7357997,Public Institution of Higher Education
+264,OUR LADY OF THE LAKE UNIVERSITY,1,500000,Private Institution of Higher Education
+265,PACE UNIVERSITY,1,136540,Private Institution of Higher Education
+266,PASSAIC COUNTY COMMUNITY COLLEGE,1,1499363,Public Institution of Higher Education
+267,PENNSYLVANIA STATE UNIVERSITY-MAIN CAMPUS,43,18531936,Public Institution of Higher Education
+268,PEPPERDINE UNIVERSITY,1,2000000,Private Institution of Higher Education
+269,PIEDMONT TECHNICAL COLLEGE,1,335707,Public Institution of Higher Education
+270,PIMA COUNTY COMMUNITY COLLEGE DISTRICT,1,266602,Public Institution of Higher Education
+271,POMONA COLLEGE,3,2317626,Private Institution of Higher Education
+272,PORTLAND COMMUNITY COLLEGE,1,650000,Public Institution of Higher Education
+273,PORTLAND STATE UNIVERSITY,6,5086415,Public Institution of Higher Education
+274,PRAIRIE VIEW A & M UNIVERSITY,7,3592980,Public Institution of Higher Education
+275,PRATT INSTITUTE,2,2124840,Private Institution of Higher Education
+276,PRINCETON UNIVERSITY,8,1988296,Private Institution of Higher Education
+277,PURDUE UNIVERSITY,45,20638784,Public Institution of Higher Education
+278,RANDOLPH-MACON COLLEGE,1,435554,Private Institution of Higher Education
+279,RENSSELAER POLYTECHNIC INSTITUTE,6,2531017,Private Institution of Higher Education
+280,RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK,6,3119442,Public Institution of Higher Education
+281,RIDER UNIVERSITY A NEW JERSEY NON-PROFIT CORP,1,220000,Private Institution of Higher Education
+282,RIO HONDO COMMUNITY COLLEGE DISTRICT,2,1504343,Public Institution of Higher Education
+283,ROCHESTER INSTITUTE OF TECHNOLOGY,15,4887643,Private Institution of Higher Education
+284,ROCKHURST UNIVERSITY,1,1000000,Private Institution of Higher Education
+285,ROSE-HULMAN INSTITUTE OF TECHNOLOGY,1,255655,Private Institution of Higher Education
+286,ROWAN UNIVERSITY,5,3218685,Public Institution of Higher Education
+287,RU SCHOOL OF OSTEOPATHIC MEDICINE,1,399998,Public Institution of Higher Education
+288,RUTGERS UNIVERSITY-CAMDEN,28,15980197,Public Institution of Higher Education
+289,SACRED HEART UNIVERSITY,1,1450727,Private Institution of Higher Education
+290,SAINT AUGUSTINE'S UNIVERSITY,2,497216,Private Institution of Higher Education
+291,SAINT FRANCIS UNIVERSITY,1,399727,Private Institution of Higher Education
+292,SAINT LOUIS UNIVERSITY,1,749685,Private Institution of Higher Education
+293,SAINT MARY'S COLLEGE OF CALIFORNIA,1,304102,Private Institution of Higher Education
+294,SAINT MARY'S UNIVERSITY OF MINNESOTA,1,394470,Private Institution of Higher Education
+295,SALEM STATE UNIVERSITY,1,327270,Public Institution of Higher Education
+296,SALISBURY UNIVERSITY,2,628976,Public Institution of Higher Education
+297,SALISH KOOTENAI COLLEGE,1,1621334,Private Institution of Higher Education
+298,SAN DIEGO STATE UNIVERSITY,11,5587524,Public Institution of Higher Education
+299,SAN FRANCISCO STATE UNIVERSITY,9,4476787,Public Institution of Higher Education
+300,SAN JOSE STATE UNIVERSITY,11,7230249,Public Institution of Higher Education
+301,SAN LUIS OBISPO COUNTY COMMUNITY COLLEGE DISTRICT,1,50762,Public Institution of Higher Education
+302,SAN MATEO COUNTY COMMUNITY COLLEGE DISTRICT,1,1498855,Public Institution of Higher Education
+303,SANFORD RESEARCH,1,378652,Private Institution of Higher Education
+304,SANTA CLARA COLLEGE,1,249987,Private Institution of Higher Education
+305,SANTA FE COMMUNITY COLLEGE,1,399727,Public Institution of Higher Education
+306,SANTA MONICA COMMUNITY COLLEGE DISTRICT,1,85385,Public Institution of Higher Education
+307,SANTIAGO CANYON COLLEGE,1,68162,Public Institution of Higher Education
+308,SAVANNAH STATE UNIVERSITY,1,1038533,Public Institution of Higher Education
+,STATE CENTER COMMUNITY COLLEGE DISTRICT,1,99578,Public Institution of Higher Education
+309,SCRIPPS COLLEGE,1,589597,Private Institution of Higher Education
+310,SEATTLE PACIFIC UNIVERSITY,2,713665,Private Institution of Higher Education
+311,SEATTLE UNIVERSITY,2,836250,Private Institution of Higher Education
+312,SETON HILL UNIVERSITY,1,749966,Private Institution of Higher Education
+313,SHAKOPEE MDEWAKANTON SIOUX COMMUNITY,1,159222,Public Institution of Higher Education
+314,SHAW UNIVERSITY,1,199797,Private Institution of Higher Education
+315,SIENA COLLEGE,1,49843,Private Institution of Higher Education
+316,SIMMONS UNIVERSITY,1,74960,Private Institution of Higher Education
+317,SKIDMORE COLLEGE,1,449640,Private Institution of Higher Education
+318,SMITH COLLEGE,2,334354,Private Institution of Higher Education
+319,SONOMA STATE UNIVERSITY,1,375540,Public Institution of Higher Education
+320,SOUTH DAKOTA SCHOOL OF MINES AND TECHNOLOGY,2,745000,Public Institution of Higher Education
+321,SOUTH DAKOTA STATE UNIVERSITY,3,2363097,Public Institution of Higher Education
+322,SOUTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT,1,1500000,Public Institution of Higher Education
+323,SOUTHERN CONNECTICUT STATE UNIVERSITY,2,2751476,Public Institution of Higher Education
+324,SOUTHERN ILLINOIS UNIVERSITY-SYSTEM OFFICE,5,1491772,Public Institution of Higher Education
+325,SOUTHERN METHODIST UNIVERSITY,4,1391496,Private Institution of Higher Education
+326,SOUTHERN UNIVERSITY AND A & M COLLEGE,2,753653,Public Institution of Higher Education
+327,SOUTHERN UTAH UNIVERSITY,1,23489,Public Institution of Higher Education
+328,SOUTHWESTERN COMMUNITY COLLEGE DISTRICT,1,649956,Public Institution of Higher Education
+329,SPELMAN COLLEGE,6,9163482,Private Institution of Higher Education
+330,ST. CATHERINE UNIVERSITY,1,75000,Private Institution of Higher Education
+331,ST. MARY'S COLLEGE OF MARYLAND,2,764000,Public Institution of Higher Education
+332,ST. MARY'S UNIVERSITY,1,177272,Private Institution of Higher Education
+333,STANFORD UNIVERSITY,25,11604352,Private Institution of Higher Education
+334,STATE OF OKLAHOMA EAST CENTRAL UNIVERSITY,1,164796,Public Institution of Higher Education
+335,STATE UNIVERSITY OF NEW YORK AT NEW PALTZ,38,40901285,Public Institution of Higher Education
+336,STEPHEN F AUSTIN STATE UNIVERSITY,2,37397,Public Institution of Higher Education
+337,STEVENS INSTITUTE OF TECHNOLOGY,1,102100,Private Institution of Higher Education
+338,STILLMAN COLLEGE,1,152500,Private Institution of Higher Education
+339,STOCKTON UNIVERSITY,1,99929,Public Institution of Higher Education
+340,STONY BROOK UNIVERSITY,11,3285968,Public Institution of Higher Education
+341,SYRACUSE UNIVERSITY,10,3558982,Private Institution of Higher Education
+342,TARLETON STATE UNIVERSITY,2,198725,Public Institution of Higher Education
+343,TEACHERS COLLEGE AT COLUMBIA UNIVERSITY,3,2002960,Private Institution of Higher Education
+344,TEMPLE UNIVERSITY,11,4865773,Private Institution of Higher Education
+345,TENNESSEE STATE UNIVERSITY,5,1674297,Public Institution of Higher Education
+346,TENNESSEE TECHNOLOGICAL UNIVERSITY,4,825679,Public Institution of Higher Education
+347,TEXAS A & M INTERNATIONAL UNIVERSITY,16,6621870,Public Institution of Higher Education
+348,TEXAS A & M UNIVERSITY,18,7176102,Public Institution of Higher Education
+349,TEXAS A & M UNIVERSITY-COMMERCE,1,385387,Public Institution of Higher Education
+350,TEXAS A & M UNIVERSITY-KINGSVILLE,2,540754,Public Institution of Higher Education
+351,TEXAS A&M UNIVERSITY-CORPUS CHRISTI,6,4952960,Public Institution of Higher Education
+352,TEXAS A&M UNIVERSITY-SAN ANTONIO,2,685448,Public Institution of Higher Education
+353,TEXAS CHRISTIAN UNIVERSITY,2,519975,Private Institution of Higher Education
+354,TEXAS PERMIAN BASIN UNIV OF,2,755379,Public Institution of Higher Education
+355,TEXAS SOUTHERN UNIVERSITY,2,1136582,Public Institution of Higher Education
+356,TEXAS STATE UNIVERSITY,11,4453760,Public Institution of Higher Education
+357,TEXAS TECH UNIVERSITY HEALTH SCIENCES CENTER,1,50000,Public Institution of Higher Education
+358,TEXAS TECH UNIVERSITY SYSTEM ADMINISTRATION,7,10226790,Public Institution of Higher Education
+359,TEXAS WESLEYAN UNIVERSITY,1,527170,Private Institution of Higher Education
+360,THE CATHOLIC UNIVERSITY OF AMERICA,1,508504,Private Institution of Higher Education
+361,THE CHICAGO SCHOOL OF PROFESSIONAL PSYCHOLOGY,1,498949,Private Institution of Higher Education
+362,THE CHILDREN'S HOSPITAL OF PHILADELPHIA,1,392542,Private Institution of Higher Education
+363,THE CURATORS OF THE UNIVERSITY OF MISSOURI,3,1047727,Public Institution of Higher Education
+364,THE REED INSTITUTE,1,163359,Private Institution of Higher Education
+365,THE SKAGIT VALLEY COLLEGE FOUNDATION,1,299938,Public Institution of Higher Education
+366,THE UNIVERSITY CORPORATION,6,4153952,Public Institution of Higher Education
+367,THE UNIVERSITY OF ALABAMA,17,14326829,Public Institution of Higher Education
+368,THE UNIVERSITY OF ALABAMA IN HUNTSVILLE,2,585811,Public Institution of Higher Education
+369,THE UNIVERSITY OF IOWA,11,3053501,Public Institution of Higher Education
+370,THE UNIVERSITY OF SOUTH DAKOTA,2,1349966,Public Institution of Higher Education
+371,THE UNIVERSITY OF SOUTHERN MISSISSIPPI,2,6012121,Public Institution of Higher Education
+372,THE UNIVERSITY OF TENNESSEE SYSTEM OFFICE,26,11995027,Public Institution of Higher Education
+373,THE UNIVERSITY OF TEXAS AT ARLINGTON,12,3322687,Public Institution of Higher Education
+374,THE UNIVERSITY OF TEXAS AT AUSTIN,36,20483095,Public Institution of Higher Education
+375,THE UNIVERSITY OF TEXAS AT DALLAS,7,3097181,Public Institution of Higher Education
+376,THE UNIVERSITY OF TEXAS AT EL PASO,17,25625045,Public Institution of Higher Education
+377,THE UNIVERSITY OF TEXAS AT SAN ANTONIO,18,14784858,Public Institution of Higher Education
+378,THE UNIVERSITY OF TEXAS AT TYLER,1,14985,Public Institution of Higher Education
+379,THE UNIVERSITY OF TEXAS HEALTH SCIENCE CENTER AT HOUSTON,2,665936,Public Institution of Higher Education
+380,THE UNIVERSITY OF TEXAS RIO GRANDE VALLEY,8,4280069,Public Institution of Higher Education
+,UNIVERSITY OF THE DISTRICT OF COLUMBIA,3,2512916,Public Institution of Higher Education
+381,THE WASHINGTON AND LEE UNIVERSITY,1,41688,Private Institution of Higher Education
+382,TOWSON UNIVERSITY,3,1795908,Public Institution of Higher Education
+383,TRINITY UNIVERSITY,2,391781,Private Institution of Higher Education
+384,TUFTS COLLEGE,9,2366521,Private Institution of Higher Education
+385,TULANE UNIVERSITY OF LOUISIANA,2,383610,Private Institution of Higher Education
+386,TUSKEGEE UNIVERSITY,5,3161800,Private Institution of Higher Education
+387,ULSTER COUNTY COMMUNITY COLLEGE,1,349838,Public Institution of Higher Education
+388,UNION COLLEGE IN SCHENECTADY,2,382139,Private Institution of Higher Education
+389,UNIVERISTY OF NORTH FLORIDA,2,463431,Public Institution of Higher Education
+390,"UNIVERSIDAD POLITECNICA DE PUERTO RICO, INC.",2,2030951,Private Institution of Higher Education
+391,UNIVERSITY CORPORATION AT MONTEREY BAY,1,704076,Public Institution of Higher Education
+392,"UNIVERSITY ENTERPRISES, INC.",3,906668,Public Institution of Higher Education
+393,UNIVERSITY OF AKRON MAIN CAMPUS,3,2199997,Public Institution of Higher Education
+394,UNIVERSITY OF ALABAMA AT BIRMINGHAM,2,3186807,Public Institution of Higher Education
+395,UNIVERSITY OF ALASKA ANCHORAGE,3,2124949,Public Institution of Higher Education
+396,UNIVERSITY OF ALASKA FAIRBANKS,12,9085156,Public Institution of Higher Education
+397,UNIVERSITY OF ARIZONA,27,12030696,Public Institution of Higher Education
+398,UNIVERSITY OF ARKANSAS,14,5772257,Public Institution of Higher Education
+399,UNIVERSITY OF ARKANSAS FOR MEDICAL SCIENCES,2,20000,Public Institution of Higher Education
+400,UNIVERSITY OF ARKANSAS SYSTEM,1,74982,Public Institution of Higher Education
+401,UNIVERSITY OF ARKANSAS SYSTEM OFFICE,2,2749986,Public Institution of Higher Education
+402,UNIVERSITY OF CALIFORNIA-BERKELEY,23,21223550,Public Institution of Higher Education
+403,UNIVERSITY OF CALIFORNIA-DAVIS,19,5503997,Public Institution of Higher Education
+404,UNIVERSITY OF CALIFORNIA-IRVINE,26,16852558,Public Institution of Higher Education
+405,UNIVERSITY OF CALIFORNIA-LOS ANGELES,26,12096702,Public Institution of Higher Education
+406,UNIVERSITY OF CALIFORNIA-MERCED,15,7887436,Public Institution of Higher Education
+407,UNIVERSITY OF CALIFORNIA-RIVERSIDE,15,8852518,Public Institution of Higher Education
+408,UNIVERSITY OF CALIFORNIA-SAN DIEGO,25,19076086,Public Institution of Higher Education
+409,UNIVERSITY OF CALIFORNIA-SAN FRANCISCO,6,5757076,Public Institution of Higher Education
+410,UNIVERSITY OF CALIFORNIA-SANTA BARBARA,17,11880729,Public Institution of Higher Education
+411,UNIVERSITY OF CALIFORNIA-SANTA CRUZ,14,6801952,Public Institution of Higher Education
+412,UNIVERSITY OF CENTRAL ARKANSAS,1,49950,Public Institution of Higher Education
+413,UNIVERSITY OF CENTRAL FLORIDA,12,3914448,Public Institution of Higher Education
+414,UNIVERSITY OF CHICAGO,18,15012506,Private Institution of Higher Education
+415,UNIVERSITY OF CINCINNATI,16,6946107,Public Institution of Higher Education
+416,UNIVERSITY OF COLORADO BOULDER,51,27644267,Public Institution of Higher Education
+417,UNIVERSITY OF COLORADO DENVER,4,832183,Public Institution of Higher Education
+418,UNIVERSITY OF CONNECTICUT,19,6459559,Public Institution of Higher Education
+419,UNIVERSITY OF CONNECTICUT HEALTH CENTER,1,322382,Public Institution of Higher Education
+420,UNIVERSITY OF DAYTON,3,597922,Private Institution of Higher Education
+421,UNIVERSITY OF DELAWARE,10,9181480,Public Institution of Higher Education
+422,UNIVERSITY OF DETROIT MERCY,1,174850,Private Institution of Higher Education
+423,UNIVERSITY OF FLORIDA,26,8322041,Public Institution of Higher Education
+424,UNIVERSITY OF GEORGIA,26,15591903,Public Institution of Higher Education
+425,UNIVERSITY OF GUAM,2,1429751,Public Institution of Higher Education
+426,UNIVERSITY OF HAWAII,15,9789918,Public Institution of Higher Education
+427,UNIVERSITY OF HOUSTON,19,11346441,Public Institution of Higher Education
+428,UNIVERSITY OF IDAHO,4,3991887,Public Institution of Higher Education
+429,UNIVERSITY OF ILLINOIS,32,65969694,Public Institution of Higher Education
+430,UNIVERSITY OF KANSAS,8,3153566,Public Institution of Higher Education
+431,UNIVERSITY OF KENTUCKY,8,2709529,Public Institution of Higher Education
+432,UNIVERSITY OF LOUISVILLE,4,1938159,Public Institution of Higher Education
+433,UNIVERSITY OF LYNCHBURG,1,391582,Private Institution of Higher Education
+434,UNIVERSITY OF MAINE,5,2013481,Public Institution of Higher Education
+435,UNIVERSITY OF MARYLAND CENTER FOR ENVIRONMENTAL SCIENCE,2,1111591,Public Institution of Higher Education
+436,UNIVERSITY OF MARYLAND-BALTIMORE COUNTY,10,6144530,Public Institution of Higher Education
+437,UNIVERSITY OF MARYLAND-COLLEGE PARK,19,12488623,Public Institution of Higher Education
+438,UNIVERSITY OF MASSACHUSETTS-AMHERST,28,17209837,Public Institution of Higher Education
+439,UNIVERSITY OF MASSACHUSETTS-BOSTON,3,1642538,Public Institution of Higher Education
+440,UNIVERSITY OF MASSACHUSETTS-DARTMOUTH,6,905401,Public Institution of Higher Education
+441,UNIVERSITY OF MEMPHIS,4,3291964,Public Institution of Higher Education
+442,UNIVERSITY OF MIAMI,6,3598859,Private Institution of Higher Education
+443,UNIVERSITY OF MICHIGAN-ANN ARBOR,52,30127858,Public Institution of Higher Education
+444,UNIVERSITY OF MINNESOTA-DULUTH,35,14047499,Public Institution of Higher Education
+445,UNIVERSITY OF MISSISSIPPI,3,1069564,Public Institution of Higher Education
+446,UNIVERSITY OF MISSOURI SYSTEM,21,10925948,Public Institution of Higher Education
+447,UNIVERSITY OF MONTANA,1,1692873,Public Institution of Higher Education
+448,UNIVERSITY OF NEBRASKA,27,12838642,Public Institution of Higher Education
+449,"UNIVERSITY OF NEW HAVEN, INCORPORATED",1,606511,Private Institution of Higher Education
+450,UNIVERSITY OF NEW MEXICO,19,9330852,Public Institution of Higher Education
+451,UNIVERSITY OF NEW ORLEANS,1,211309,Public Institution of Higher Education
+452,UNIVERSITY OF NORTH CAROLINA AT CHAPEL HILL,20,10836132,Public Institution of Higher Education
+453,UNIVERSITY OF NORTH CAROLINA AT CHARLOTTE,15,3745656,Public Institution of Higher Education
+454,UNIVERSITY OF NORTH CAROLINA AT GREENSBORO,7,2987394,Public Institution of Higher Education
+455,UNIVERSITY OF NORTH CAROLINA AT WILMINGTON,1,171767,Public Institution of Higher Education
+456,UNIVERSITY OF NORTH CAROLINA SYSTEM OFFICE,1,37468,Public Institution of Higher Education
+457,UNIVERSITY OF NORTH DAKOTA,4,997704,Public Institution of Higher Education
+458,UNIVERSITY OF NORTH GEORGIA,1,138184,Public Institution of Higher Education
+459,UNIVERSITY OF NORTH TEXAS,9,2294018,Public Institution of Higher Education
+460,UNIVERSITY OF NORTHERN COLORADO,1,399996,Public Institution of Higher Education
+461,UNIVERSITY OF NORTHERN IOWA,3,758914,Public Institution of Higher Education
+462,UNIVERSITY OF NOTRE DAME,12,4364150,Private Institution of Higher Education
+463,UNIVERSITY OF OKLAHOMA,14,7058909,Public Institution of Higher Education
+464,UNIVERSITY OF OREGON,10,4175540,Public Institution of Higher Education
+465,UNIVERSITY OF PENNSYLVANIA,15,10971017,Private Institution of Higher Education
+466,UNIVERSITY OF PITTSBURGH-PITTSBURGH CAMPUS,18,5084310,Private Institution of Higher Education
+467,UNIVERSITY OF PUERTO RICO,12,7889015,Public Institution of Higher Education
+468,UNIVERSITY OF PUERTO RICO IN PONCE,1,435207,Public Institution of Higher Education
+469,UNIVERSITY OF RHODE ISLAND,5,1572907,Public Institution of Higher Education
+470,UNIVERSITY OF ROCHESTER,10,7165954,Private Institution of Higher Education
+471,UNIVERSITY OF SAN DIEGO,2,873374,Private Institution of Higher Education
+472,UNIVERSITY OF SOUTH ALABAMA,4,2156691,Public Institution of Higher Education
+473,UNIVERSITY OF SOUTH CAROLINA,6,3208776,Public Institution of Higher Education
+474,UNIVERSITY OF SOUTH FLORIDA,14,4255595,Public Institution of Higher Education
+475,UNIVERSITY OF SOUTHERN CALIFORNIA,19,10627158,Private Institution of Higher Education
+476,UNIVERSITY OF SOUTHERN INDIANA,1,54559,Public Institution of Higher Education
+477,UNIVERSITY OF TEXAS SOUTHWESTERN MEDICAL CENTER,1,483845,Public Institution of Higher Education
+478,UNIVERSITY OF THE INCARNATE WORD,1,399846,Private Institution of Higher Education
+479,UNIVERSITY OF THE VIRGIN ISLANDS,3,4318238,Public Institution of Higher Education
+480,UNIVERSITY OF TOLEDO,1,707521,Public Institution of Higher Education
+481,UNIVERSITY OF UTAH,18,8934133,Public Institution of Higher Education
+482,UNIVERSITY OF VERMONT,4,1494473,Public Institution of Higher Education
+483,UNIVERSITY OF VIRGINIA-MAIN CAMPUS,15,9319173,Public Institution of Higher Education
+484,UNIVERSITY OF WASHINGTON,44,23416658,Public Institution of Higher Education
+485,UNIVERSITY OF WEST FLORIDA,1,299963,Public Institution of Higher Education
+486,UNIVERSITY OF WEST GEORGIA,1,37688,Public Institution of Higher Education
+487,UNIVERSITY OF WISCONSIN,34,10602285,Public Institution of Higher Education
+488,UNIVERSITY OF WISCONSIN PARKSIDE,1,219994,Public Institution of Higher Education
+489,UNIVERSITY OF WYOMING,4,1610344,Public Institution of Higher Education
+490,UNIVERSITY SYSTEM OF NEW HAMPSHIRE SYSTEM OFFICE,6,2537748,Public Institution of Higher Education
+491,UTAH STATE UNIVERSITY,10,3453806,Public Institution of Higher Education
+492,UTICA UNIVERSITY,1,202312,Private Institution of Higher Education
+493,VALDOSTA STATE UNIVERSITY,1,35734,Public Institution of Higher Education
+494,VANDERBILT UNIVERSITY,14,4941175,Private Institution of Higher Education
+495,VAUGHN COLLEGE OF AERONAUTICS AND TECHNOLOGY,1,284549,Private Institution of Higher Education
+496,VILLANOVA UNIVERSITY,8,2206759,Private Institution of Higher Education
+497,VIRGINIA COMMONWEALTH UNIVERSITY,7,2188924,Public Institution of Higher Education
+498,VIRGINIA COMMUNITY COLLEGE SYSTEM OFFICE,1,1499958,Public Institution of Higher Education
+499,VIRGINIA INSTITUTE OF MARINE SCIENCE,1,107930,Public Institution of Higher Education
+500,VIRGINIA POLYTECHNIC INSTITUTE AND STATE UNIVERSITY,36,15723799,Public Institution of Higher Education
+501,VIRGINIA STATE UNIVERSITY,1,2194250,Public Institution of Higher Education
+502,VIRGINIA WESLEYAN UNIVERSITY,1,612531,Private Institution of Higher Education
+503,WAKE FOREST UNIVERSITY,1,501329,Private Institution of Higher Education
+504,WASHINGTON STATE UNIVERSITY,6,1591404,Public Institution of Higher Education
+505,WASHINGTON UNIVERSITY IN ST LOUIS,17,11004845,Private Institution of Higher Education
+506,WAYNE STATE UNIVERSITY,3,500279,Public Institution of Higher Education
+507,WEBER STATE UNIVERSITY,2,960215,Public Institution of Higher Education
+508,WEBSTER UNIVERSITY,1,775767,Private Institution of Higher Education
+509,WELLESLEY COLLEGE,2,193328,Private Institution of Higher Education
+510,WEST CHESTER UNIVERSITY OF PENNSYLVANIA,3,704639,Public Institution of Higher Education
+511,WEST VIRGINIA STATE UNIVERSITY,1,349681,Public Institution of Higher Education
+512,WESTED,1,323305,Private Institution of Higher Education
+513,WESTERN KENTUCKY UNIVERSITY,1,50000,Public Institution of Higher Education
+514,WESTERN MICHIGAN UNIVERSITY,3,6305297,Public Institution of Higher Education
+515,WESTERN WASHINGTON UNIVERSITY,7,3464048,Public Institution of Higher Education
+516,WESTFIELD STATE UNIVERSITY,1,513736,Public Institution of Higher Education
+517,WHATCOM COMMUNITY COLLEGE,1,84655,Public Institution of Higher Education
+518,WHITWORTH UNIVERSITY,1,35893,Private Institution of Higher Education
+519,WICHITA STATE UNIVERSITY,3,1510790,Public Institution of Higher Education
+520,WICHITA STATE UNIVERSITY-CAMPUS OF APPLIED SCIENCES AND TECHNOLOGY,1,399995,Public Institution of Higher Education
+521,WIDENER UNIVERSITY,1,143609,Private Institution of Higher Education
+522,WILLAMETTE UNIVERSITY,2,1888790,Private Institution of Higher Education
+523,WILLIAM MARSH RICE UNIVERSITY,17,9120210,Private Institution of Higher Education
+,WASHBURN UNIVERSITY,1,400000,Public Institution of Higher Education
+524,WILLIAM RAINEY HARPER COLLEGE,1,400000,Public Institution of Higher Education
+525,WILLIAMS COLLEGE,1,34700,Private Institution of Higher Education
+526,WINSTON-SALEM STATE UNIVERSITY,4,1973971,Public Institution of Higher Education
+527,WINTHROP UNIVERSITY,1,110305,Public Institution of Higher Education
+528,WOODS HOLE OCEANOGRAPHIC INSTITUTION,5,2696175,Private Institution of Higher Education
+529,WORCESTER POLYTECHNIC INSTITUTE,5,2177352,Private Institution of Higher Education
+530,WORCESTER STATE UNIVERSITY,1,387200,Public Institution of Higher Education
+531,YALE UNIVERSITY,12,4756285,Private Institution of Higher Education
