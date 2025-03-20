@@ -43,7 +43,7 @@ L.geoJSON(counties, {
 //calculate the radius based on amount of funding lost (or number of awards??)
 function calcPropRadius(attValue, zoomLevel){
     var minRadius = 5;
-    var maxRadius = 25;
+    var maxRadius = 19;
     var radius = Math.sqrt(attValue)*2;
 
     //adjust the radius based on zoom level

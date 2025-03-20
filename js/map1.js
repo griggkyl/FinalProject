@@ -46,7 +46,7 @@ return div;
 //calculate the radius based on amount of funding lost (or number of awards??)
 function calcPropRadius(attValue, zoomLevel){
     var minRadius = 5;
-    var maxRadius = 25;
+    var maxRadius = 18;
     var radius = Math.sqrt(attValue)*2;
 
     //adjust the radius based on zoom level
