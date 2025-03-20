@@ -1,18 +1,62 @@
-var map1 = L.map('map1').setView([39.7392, -100.55], 4.45); // Center map over Mexico
 
+        
+map1 = L.map('map1').setView([40, -105.782], 4); // Adjust initial view
 L.tileLayer('https://api.mapbox.com/styles/v1/griggkyl/cm869xyfd007q01sscz00c6pl/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZ3JpZ2dreWwiLCJhIjoiY202emRreHVyMDN3NjJycTIzNGJ6NzRnaSJ9.aEoPhdkBaG6QTaCUAzXcSw', {
-    
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
                  'Imagery &copy; <a href="https://www.mapbox.com">Mapbox</a>',
-    maxZoom: 16
+    maxZoom: 19
 }).addTo(map1);
 
-   
+fetch("data/geojsons/funding_loss_summary!.geojson")
+.then(response => response.json())
+.then(data => { 
+    // const fundingByType = byRecipientType(data);
+    // createFundingBarChart(fundingByType);
+createPropSymbols(data);
+createLegend();
+})
+
+
+
+.catch(error => {
+    console.error("Error loading the GeoJSON data:", error);
+});
+
+//create the legend 
+function createLegend() {
+var legend = L.control({position: 'topleft'});
+
+legend.onAdd = function(){
+    var div = L.DomUtil.create('div', 'info legend');
+    div.innerHTML = '<strong> Recipient Type </strong><br>'; //title
+    categories = ['For-profit Organization', 'Medical Center', 'Museum', 'Non-profit Organization', 
+        'Private Institution of Higher Education', 'Public Institution of Higher Education', 
+        'Research Institute', 'Small Business', 'Designated Tribal Organization ']
+        colors = ["#E84E66", "#FCD475", "#C7E3B6", "#4CB679", "#F9D5D6","#674196", "#1A4D2E", "#CC7DB1",  "#f1FA8C"]
+
+        //loop through the categories and generate a label
+        for (var i = 0; i < categories.length; i++) {
+            div.innerHTML +=
+            '<i style="background:' + colors[i] + '; width: 20px; height:20px; display: inline-block; margin-right: 5px;"></i> ' + categories[i] + '<br>';
+        }
+return div;
+    }
+    legend.addTo(map1)
+}
 //calculate the radius based on amount of funding lost (or number of awards??)
-function calcPropRadius(attValue){
-    var minRadius = 3;
+function calcPropRadius(attValue, zoomLevel){
+    var minRadius = 5;
+    var maxRadius = 25;
     var radius = Math.sqrt(attValue)*2;
-    return Math.max(radius, minRadius);
+
+    //adjust the radius based on zoom level
+    radius = radius / Math.pow(1.05, (zoomLevel - 10));
+  
+
+    //ensure the radius doesn't go below a minimum or above a maximum threshold
+   radius = Math.max(minRadius, Math.min(radius, maxRadius));
+
+    return radius
 }
 
 //assign color based on org type
@@ -42,12 +86,16 @@ function colorchooser(Value){
         return "#CC7DB1" //plum
     }
     else if(Value == "Tribal designated organization"){
-        return "#1FA8C" //lime green
+        return "#f1FA8C" //lime green
     }
 }
 
 //add circle markers for point features to the map
 function createPropSymbols(data){
+    if (!data.features || data.features.length === 0) {
+        console.log("No features found in the GeoJSON data.");
+        return;
+    }
     var prop_attribute = "award_count"
     var color_attribute = "recipient_type"
   //create marker options
@@ -66,7 +114,11 @@ var recipientLayers= {};
     pointToLayer: function(feature, latlng) {
         var attValue = Number(feature.properties[prop_attribute]);
         var Value = feature.properties[color_attribute];
-        geojsonMarkerOptions.radius = calcPropRadius(attValue);
+        var zoomLevel = map1.getZoom();
+    
+        //calculate the marker based on attribute and zoom level
+        geojsonMarkerOptions.radius = calcPropRadius(attValue, zoomLevel);
+       //color based on recipient type
         geojsonMarkerOptions.fillColor = colorchooser(Value);
 
         //create circles
@@ -112,67 +164,6 @@ layer.on({
   }
   L.control.layers(null, overlays).addTo(map1);
 
-// //Function to aggregate by recipient type
-// function byRecipientType(data){
-//     const fundingByType = {};
-
-//     //Loop through each feature
-//     data.features.forEach(function(feature){
-//         const recipientType = feature.properties.recipient_type;
-//         const fundingLost = feature.properties.total_funding_awarded;
-
-//         //aggregate funding
-//         if(!fundingByType[recipientType]){
-//             fundingByType[recipientType] = 0;
-//         }
-//         fundingByType[recipientType] += fundingLost;
-//     });
-//     return fundingByType;
-// }
-
-// //function to create the bar chart
-// function createFundingBarChart(fundingData){
-//     var ctx = document.getElementById('fundingBarChart').getContext('2d');
-
-//     // Extract labels (recipient types) and data (funding lost)
-//     var labels = Object.keys(fundingData);
-//     var data = Object.values(fundingData);
-
-//     // Create the chart
-//     new Chart(ctx, {
-//         type: 'bar', // Specify that it's a bar chart
-//         data: {
-//             labels: labels, // X-axis labels (recipient types)
-//             datasets: [{
-//                 label: 'Amount of Funding Lost ($)',
-//                 data: data, // Y-axis data (funding lost)
-//                 backgroundColor: 'rgba(54, 162, 235, 0.2)', // Bar color (blue with transparency)
-//                 borderColor: 'rgba(54, 162, 235, 1)', // Border color of bars
-//                 borderWidth: 1 // Border width
-//             }]
-//         },
-//         options: {
-//             scales: {
-//                 y: {
-//                     beginAtZero: true // Ensure the y-axis starts at 0
-//                 }
-//             }
-//         }
-//     });
-// }
-
 }
-  
-fetch("data/geojsons/funding_loss_summary!.geojson")
-.then(response => response.json())
-.then(data => { 
-    // const fundingByType = byRecipientType(data);
-    // createFundingBarChart(fundingByType);
-createPropSymbols(data)}).addTo(map1)
 
-
-
-.catch(error => {
-    console.error("Error loading the GeoJSON data:", error);
-});
 

@@ -9,24 +9,48 @@ body {
     color: white;
     font-size: xx-large;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    padding: 20px;
-    background-color: #Bf84b7
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color:  #1f945e;
 }
 
-#myname{
-    text-align: center;
-    color: white;
+#subheader{
+    text-align: left;
+    color: black;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 40px;
+}
+
+#overview{
+    text-indent: 10mm;
+    line-height: 35px;
+    text-align: left;
+    color: black;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+#link{
+    line-height: 0px;
+    text-align: left;
+    color: black;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
     margin-top: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-top: 0px;
-    background-color:  #Bf84b7;
 }
-
 .info.legend{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -59,6 +83,22 @@ body {
 }
 
 #map1, #map2 {
-    height: 1200px;
+    height: 100vh;
     width: 100%;
+}
+
+#description {text-align: left;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.info.legend{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info.legend2{
+    font-family: 'Times New Roman', Times, serif;
 }

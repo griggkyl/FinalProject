@@ -7,10 +7,9 @@
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <!--Mapbox-->
-    <link rel="stylesheet" href="mapbox://styles/griggkyl/cm869xyfd007q01sscz00c6pl"/>
-    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
+    <link rel="stylesheet" href='mapbox://styles/griggkyl/cm869xyfd007q01sscz00c6pl'/>
     <link rel="stylesheet" href="finalproject.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ 
 
    <style>
     .tab-container {
@@ -41,84 +40,226 @@
     .active-content {
         display: block;
     }
+
+    .info.legend {
+        height: 50 px;
+        line-height: 20px;
+        color: #555;
+        background-color: white;
+        padding: 6px;
+        font-size: 12px;
+    }
+    
+    .info.legend2 {
+        height: 50 px;
+        line-height: 20px;
+        color: #555;
+        background-color: white;
+        padding: 6px;
+        font-size: 12px;
+    }
+    
     </style>
 </head>
 <body>
+    
     <div class="tab-container">
         <div class = "tab active-tab" onclick = "showTab(1)">Overview</div>
         <div class="tab" onclick ="showTab(2)">Map 1</div>
         <div class="tab" onclick ="showTab(3)">Map 2</div>
-        <div class="tab" onclick = "showTab(4)">Quiz and Charts</div>
     </div>
 
     <div id="tab1" class="tab-content active-content">
-        <h2> Welcome Page and Overview</h2>
-    </div>
+        <h2 id = "header"> Oh Where, Oh Where, is the Science Too Woke?</h2>
+        <p id = "overview"> On February 11, 2025, the United States Senate Committee on Commerce, Science, & Transportation released the findings of an investigation headed by Ted Cruz on the ‘woke DEI’ grants funded by the National Science Foundation (NSF). The press release alleged that Cruz had unveiled over $2 billion in funding “diverted toward questionable projects that promoted Diversity, Equity, and Inclusion (DEI) or advanced neo-Marxist class warfare propaganda” (2025), linking to Cruz’s database listing the awards under scrutiny.  This project maps the locations of recipients whose grants were included in this database and provides a closer look into the scientific research vulnerable under this administration.  </p>
+        <p id = "link"> Click <a href=https://www.commerce.senate.gov/index.cfm?a=files.serve&File_id=94060590-F32F-4944-8810-300E6766B1D6>here </a>to review the database.</p>
+        <p id = "subheader"> What type of science is being targeted? </p>
+        <p id = "overview"> This database includes all types of scientific research, from cancer to magnets to water pathogens and beyond. Any grant that incudes one of the following words is susceptible to funding cuts:  </p>
+        <ul>
+            <li>activism/activists/advocacy/advocate(s)</li>
+            <li>barrier(s)</li>
+            <li>biased/biases/biased toward/biases towards</li>
+            <li>bipoc</li>
+            <li>black and latinx</li>
+            <li>community diversity</li>
+            <li>community equity</li>
+            <li>cultural differences</li>
+            <li>cultural heritage</li>
+            <li>culturally responsive</li>
+            <li>disability/disabilities</li>
+            <li>discriminated/discrimination/discriminatory</li>
+            <li>diverse backgrounds/diverse community/diverse communities/diverse group(s)</li>
+            <li>diversified/diversify/diversifying</li>
+            <li>diversity and inclusion</li>
+            <li>diversity equity</li>
+            <li>enhance the diversity</li>
+            <li>enhancing diversity</li>
+            <li>equal opportunity</li>
+            <li>equality</li>
+            <li>equitable/equity</li>
+            <li>ethnicity</li>
+            <li>excluded</li>
+            <li>female(s)</li>
+            <li>fostering inclusivity</li>
+            <li>gender(s)</li>
+            <li>gender diversity</li>
+            <li>hate speech</li>
+            <li>hispanic minority</li>
+            <li>historically</li>
+            <li>implicit bias(es)</li>
+            <li>inclusion/inclusive/inclusiveness/inclusivity</li>
+            <li>increase diversity/increase the diversity</li>
+            <li>indigenous community</li>
+            <li>inequality/inequalities</li>
+            <li>inequitable/inequities</li>
+            <li>institutional</li>
+            <li>Lgbt</li>
+            <li>marginalize/marginalized</li>
+            <li>minority/minorities</li>
+            <li>multicultural</li>
+            <li>polarization</li>
+            <li>political</li>
+            <li>prejudice</li>
+            <li>privileges</li>
+            <li>promoting diversity</li>
+            <li>race and ethnicity</li>
+            <li>racial</li>
+            <li>racial diversity</li>
+            <li>racial inequality</li>
+            <li>racial justice</li>
+            <li>racially</li>
+            <li>racism</li>
+            <li>sense of belonging</li>
+            <li>sexual preferences</li>
+            <li>social justice</li>
+            <li>sociocultural</li>
+            <li>socioeconomic</li>
+            <li>status</li>
+            <li>stereotypes</li>
+            <li>systemic</li>
+            <li>trauma</li>
+            <li>under appreciated</li>
+            <li>under represented/underrepresentation/underrepresented</li>
+            <li>under served</li>
+            <li>undervalued</li>
+            <li>victim</li>
+            <li>women</li>
+            <li>women and underrepresented</li>
+          </ul>
+          <p id = "overview"> That is, these anti-woke initiatives are not only targeting efforts to explicitly diversify scientific knowledge and make more inclusive STEM environments.</p>
+          <p id = "subheader"> Examples of NSF grants that have been "poisoned" by wokeness </p>
+          <ul>
+            <li>University of Rochester
+              <ul>
+                <li>THE RESEARCH OF THZ SCIENCE AND TECHNOLOGY HAS BEEN LIMITED TO THE MARGINAL POWER LEVEL OF AVAILABLE LASERS WITH NANO-JOULE TO MJ LASER PULSE ENERGY. THE PROJECT IS BASIC SCIENTIFIC EXPLORATION, APPLIED DEVICE INNOVATION, AND A PILOT TEST FOR THE EXTREME THZ SCIENCE WITH ULTRA-INTENSE LASER PULSES. GREATER THAN KJ LASER PULSE ENERGY WITH LESS THAN 1 PS LASER PULSE DURATION FOR THE THZ SCIENCE IS NOT AVAILABLE ANYWHERE IN THE WORLD.</li>
+              </ul>
+            </li>
+            <li>Los Angeles County Museum of Natural History Foundation
+              <ul>
+                <li>UNDERSTANDING NATURE AND LOS ANGELES BIODIVERSITY (UNLAB) THROUGH MUSEUM COLLECTIONS AND FIELD-BASED RESEARCH… A COMPREHENSIVE UNDERSTANDING OF THE CONSEQUENCES OF ANTHROPOGENIC CHANGE ON EARTH. BIODIVERSITY REQUIRES RESEARCH THAT SPANS PALEONTOLOGICAL, HISTORICAL, AND MODERN TIMESCALES. UNLAB MENTEE RESEARCH PROJECTS ARE TAXONOMICALLY DIVERSE, COLLECTIONS-BASED, AND PURPOSEFULLY VARIED.</li>
+              </ul>
+            </li>
+            <li>Woods Hole Oceanographic Institution
+              <ul>
+                <li>THIS PROJECT WILL COLLECT AND ANALYZE WATER SAMPLES FROM DIFFERENT LOBES OF LAKE TININNILIK AND EXPOSED SEDIMENTS TO ADDRESS HOW ICE-MARGINAL LAKES CHANGE THE CHEMICAL AND MICROBIAL COMPOSITION AND AVAILABILITY OF NUTRIENTS FOR NEAR-SHORE AND OPEN-OCEAN ECOSYSTEMS. SARQARDLEQ FJORD, INTO WHICH LAKE TININNILIK DRAINS, IS AN IMPORTANT SOURCE OF FISH FOR LOCAL INDIGENOUS POPULATIONS, AND THIS WORK WILL AID FUTURE STUDIES SEEKING TO UNDERSTAND HOW RAPID DRAINAGE EVENTS MAY AFFECT THE MARINE FOOD WEB. THIS AWARD REFLECTS NSF'S STATUTORY MISSION AND HAS BEEN DEEMED WORTHY OF SUPPORT THROUGH EVALUATION USING THE FOUNDATION'S INTELLECTUAL MERIT AND BROADER IMPACTS REVIEW CRITERIA.</li>
+              </ul>
+            </li>
+            <li>Virginia Polytechnic Institute & State University
+              <ul>
+                <li>THIS AWARD WILL SUPPORT RESEARCH TO BETTER UNDERSTAND THE LONG-TERM EFFECTS OF TRAUMATIC BRAIN INJURY. TRAUMATIC BRAIN INJURY REPRESENTS A SIGNIFICANT BURDEN IN THE UNITED STATES. WHILE THERE ARE MANY TREATMENTS AVAILABLE, THERE ARE NO PROVEN THERAPIES TO MITIGATE THE LONG-TERM EFFECTS OF THESE INJURIES. THE RESULTS OF THIS WORK WILL ULTIMATELY LEAD TO NEW TREATMENTS. THIS WORK WILL LOOK SPECIFICALLY AT ASTROCYTES, WHICH ARE A SPECIFIC CELL TYPE IN THE BRAIN AND SPINAL CORD. ASTROCYTES ARE RESPONSIBLE FOR MANY CRITICAL SUPPORTIVE FUNCTIONS. ASTROCYTE DYSFUNCTION OCCURS IN CONDITIONS AS ALZHEIMER'S DISEASE AND CANCER.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
 
     <div id="tab2" class="tab-content">
         <p id="mp1"> Grant Recipients Whose Projects Have Been Flagged </p>
+        <p id="description"> Tip: if the map isn't loading, readjust your browser and zoom in and out </p>
         <div id="map1"></div> <!-- The div where the map will be rendered -->
     </div>
 
     <div id="tab3" class="tab-content">
-        <p id="mp2"> Flagged Projects Over 2024 Presidential Election Results </p>
+        <p id="mp2"> Flagged Projects Over a Map of the 2024 Presidential Election Results by County </p>
+        <p id="description"> Tip: if the map isn't loading, readjust your browser and zoom in and out </p>
         <div id="map2"></div> <!-- The div where the map will be rendered -->
     </div>
 
-    <div id="tab4" class="tab-content">
-        <h2> Quiz and Charts</h2>
-    </div>
-
-    <script>
-        function showTab(tabNumber) {
-            // Hide all tab contents
-            let tabContents = document.querySelectorAll('.tab-content');
-            tabContents.forEach(function(content) {
-                content.classList.remove('active-content');
-            });
-
-            // Remove the active class from all tabs
-            let tabs = document.querySelectorAll('.tab');
-            tabs.forEach(function(tab) {
-                tab.classList.remove('active-tab');
-            });
-
-            // Show the clicked tab content and add active class to the tab
-            document.getElementById('tab' + tabNumber).classList.add('active-content');
-            document.querySelector('.tab:nth-child(' + tabNumber + ')').classList.add('active-tab');
-
-            // Initialize the map only when the tab with the map is activated
-            if (tabNumber === 2 && !window.map1Initialized) {
-                initializeMap1();
-            }
-            if (tabNumber === 3 && !window.map2Initialized) {
-                initializeMap2();
-            }
-        }
-
-        function initializeMap1() {
-            // Initialize the map for tab 2 (map1)
-            window.map1Initialized = true;
-            var map1 = L.map('map1').setView([51.505, -0.09], 13); // Adjust initial view
-
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo(map1);
-        }
-
-        function initializeMap2() {
-            // Initialize the map for tab 3 (map2)
-            window.map2Initialized = true;
-            var map2 = L.map('map2').setView([51.505, -0.09], 13); // Adjust initial view
-
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo(map2);
-        }
-    </script>
+    
+    
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
        
-    <script src="map1.js"></script>
-    <script src="map2.js"></script>
+   
+
+    <script>
+    // Global variables for maps to ensure proper initialization
+   let map1Initialized; 
+   let map2Initialized; 
+   let map1;
+   let map2;
+
+   function initializeMap1() {
+// Check if the map has already been initialized
+if (map1Initialized) return;
+    
+L.tileLayer('https://api.mapbox.com/styles/v1/griggkyl/cm869xyfd007q01sscz00c6pl/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZ3JpZ2dreWwiLCJhIjoiY202emRreHVyMDN3NjJycTIzNGJ6NzRnaSJ9.aEoPhdkBaG6QTaCUAzXcSw', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+                 'Imagery &copy; <a href="https://www.mapbox.com">Mapbox</a>',
+    maxZoom: 19
+}).addTo(map1);
+   map1Initialized = true;
+}  
+
+   // Function to initialize Map 2
+   function initializeMap2() {
+       // Check if Map 2 has already been initialized
+       if (map2Initialized) return;
+
+       L.tileLayer('https://api.mapbox.com/styles/v1/griggkyl/cm869xyfd007q01sscz00c6pl/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZ3JpZ2dreWwiLCJhIjoiY202emRreHVyMDN3NjJycTIzNGJ6NzRnaSJ9.aEoPhdkBaG6QTaCUAzXcSw', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+                 'Imagery &copy; <a href="https://www.mapbox.com">Mapbox</a>',
+    maxZoom: 19
+}).addTo(map2);
+       map2Initialized = true;
+   }
+
+   // Function to show tab content and switch active tab
+   function showTab(tabNumber) {
+       // Hide all tab contents
+       let tabContents = document.querySelectorAll('.tab-content');
+       tabContents.forEach(function(content) {
+           content.classList.remove('active-content');
+       });
+
+       // Remove the active class from all tabs
+       let tabs = document.querySelectorAll('.tab');
+       tabs.forEach(function(tab) {
+           tab.classList.remove('active-tab');
+       });
+
+       // Show the clicked tab content and add active class to the tab
+       document.getElementById('tab' + tabNumber).classList.add('active-content');
+       document.querySelector('.tab:nth-child(' + tabNumber + ')').classList.add('active-tab');
+
+       // Initialize the map only when the tab with the map is activated
+       if (tabNumber === 2 && !map1Initialized) {
+           initializeMap1();
+           setTimeout(() => map1.invalidateSize(), 0)
+       }
+       if (tabNumber === 3 && !map2Initialized) {
+           initializeMap2();
+           setTimeout(() => map2.invalidateSize(), 0)
+       }
+
+    //    // After making the map container visible, force the map to recalculate its size
+    //    if (tabNumber === 2 && map1Initialized) {
+    //        map1.invalidateSize(); // Resize the map when tab 2 is shown
+    //    }
+    //    if (tabNumber === 3 && map2Initialized) {
+    //        map2.invalidateSize(); // Resize the map when tab 3 is shown
+    //    }
+   }
+    </script>
+  <script src="js/map1.js"></script>
+  <script src="js/map2.js"></script>
 </body>
 </html>

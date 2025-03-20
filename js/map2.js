@@ -1,10 +1,9 @@
-var map2 = L.map('map2').setView([39.7392, -100.55], 4.45); // Center map over Mexico
+map2 = L.map('map2').setView([40, -105.782], 4); // Center map over US
 
 L.tileLayer('https://api.mapbox.com/styles/v1/griggkyl/cm869xyfd007q01sscz00c6pl/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZ3JpZ2dreWwiLCJhIjoiY202emRreHVyMDN3NjJycTIzNGJ6NzRnaSJ9.aEoPhdkBaG6QTaCUAzXcSw', {
-    
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
                  'Imagery &copy; <a href="https://www.mapbox.com">Mapbox</a>',
-    maxZoom: 16
+    maxZoom: 19
 }).addTo(map2);
 
 
@@ -17,9 +16,9 @@ function countyColor(feature){
     //conditional color logic
     var fillColor;
     if(votesDiff >= 0) {
-        fillColor =  "#D7003A"; //red for majority GOP
+        fillColor =  "#CD4444"; //red for majority GOP
     } else {
-        fillColor = "#4682B4"; //blue
+        fillColor = "#75A6CE"; //blue
     }
 
     return{
@@ -42,12 +41,54 @@ L.geoJSON(counties, {
     .then(response => response.json())
     .then(pointData => {
 //calculate the radius based on amount of funding lost (or number of awards??)
-function calcPropRadius(attValue){
-    var minRadius = 3;
+function calcPropRadius(attValue, zoomLevel){
+    var minRadius = 5;
+    var maxRadius = 25;
     var radius = Math.sqrt(attValue)*2;
-    return Math.max(radius, minRadius);
+
+    //adjust the radius based on zoom level
+    radius = radius / Math.pow(1.05, (zoomLevel - 10));
+  
+
+    //ensure the radius doesn't go below a minimum or above a maximum threshold
+   radius = Math.max(minRadius, Math.min(radius, maxRadius));
+
+    return radius
 }
 
+//create the legend 
+function createLegend() {
+    var legend2 = L.control({position: 'topleft'});
+    
+    legend2.onAdd = function(){
+        var div = L.DomUtil.create('div', 'info legend');
+        div.innerHTML += '<strong> Recipient Type </strong><br>'; //title
+        categories = ['For-profit Organization', 'Medical Center', 'Museum', 'Non-profit Organization', 
+            'Private Institution of Higher Education', 'Public Institution of Higher Education', 
+            'Research Institute', 'Small Business', 'Designated Tribal Organization ']
+            colors = ["#E84E66", "#FCD475", "#C7E3B6", "#4CB679", "#F9D5D6","#674196", "#1A4D2E", "#CC7DB1",  "#f1FA8C"]
+    
+            //loop through the categories and generate a label
+            for (var i = 0; i < categories.length; i++) {
+                div.innerHTML +=
+                '<i style="background:' + colors[i] + '; width: 20px; height: 20px; display: inline-block; margin-right: 5px;"></i>' + categories[i] + '<br>';
+            }
+
+            //section 2: Election Results
+            div.innerHTML += '<br><strong>Results of the 2024 Presidential Election at the County Level</strong><br>';
+            var electionColors = ["#CD4444", "#75A6CE"];
+            var electionLabels = ['Republican Majority: Donald Trump', 'Democratic Majority: Kamala Harris'];
+
+            //loop through election symbology
+            for (var j = 0; j < electionLabels.length; j++){
+                div.innerHTML += 
+                '<i style="background:' + electionColors[j] + '; width: 20px; height: 20px; display: inline-block; margin-right: 5px;"></i> ' +
+                electionLabels[j] + '<br>';
+            }
+    return div;
+        }
+        legend2.addTo(map2)
+    }
 //assign color based on org type
 function colorchooser(Value){
     if(Value == "For-profit organization"){
@@ -75,7 +116,7 @@ function colorchooser(Value){
         return "#CC7DB1" //plum
     }
     else if(Value == "Tribal designated organization"){
-        return "#1FA8C" //lime green
+        return "#f1FA8C" //lime green
     }
 }
 
@@ -98,7 +139,9 @@ function createPropSymbols(data){
     pointToLayer: function(feature, latlng) {
         var attValue = Number(feature.properties[prop_attribute]);
         var Value = feature.properties[color_attribute];
-        geojsonMarkerOptions.radius = calcPropRadius(attValue);
+        var zoomLevel = map2.getZoom();
+        
+        geojsonMarkerOptions.radius = calcPropRadius(attValue, zoomLevel);
         geojsonMarkerOptions.fillColor = colorchooser(Value);
 
         //create circles
@@ -124,7 +167,8 @@ layer.on({
     }
   }).addTo(map2);
 }
-createPropSymbols(pointData)
+createPropSymbols(pointData);
+createLegend();
 
 })
 
